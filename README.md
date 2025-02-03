@@ -51,7 +51,7 @@ This project is a full-stack e-commerce website using React for the frontend, Sp
 
 1. **Navigate to the frontend directory:**
     ```bash
-    cd frontend
+    cd ecom-frontend
     ```
 
 2. **Install dependencies:**
@@ -59,18 +59,18 @@ This project is a full-stack e-commerce website using React for the frontend, Sp
     npm install
     ```
 
-3. **Run the frontend server:**
+3. **Run the frontend server (through Vite):**
     ```bash
-    npm start
+    npm start vite
     ```
 
-    The frontend will start running at `http://localhost:3000`.
+    The frontend will start running at `http://localhost:5173`.
 
 ### Backend
 
 1. **Navigate to the backend directory:**
     ```bash
-    cd backend
+    cd ecom-backend
     ```
 
 2. **Configure the MySQL Database:**
@@ -78,13 +78,13 @@ This project is a full-stack e-commerce website using React for the frontend, Sp
     Create a database in MySQL:
 
     ```sql
-    CREATE DATABASE ecommerce;
+    CREATE DATABASE your-db-schema;
     ```
 
     Update the `application.properties` file located in `src/main/resources` with your MySQL database configuration:
 
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
+    spring.datasource.url=jdbc:mysql://localhost:3306/your-db-schema
     spring.datasource.username=your-username
     spring.datasource.password=your-password
     spring.jpa.hibernate.ddl-auto=update
