@@ -61,7 +61,7 @@ This project is a full-stack e-commerce website using React for the frontend, Sp
 
 3. **Run the frontend server (through Vite):**
     ```bash
-    npm start vite
+    npm run dev
     ```
 
     The frontend will start running at `http://localhost:5173`.
